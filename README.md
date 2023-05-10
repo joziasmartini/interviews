@@ -48,3 +48,11 @@ In web development, debouncing is a technique used to handle performance problem
 The debouncing technique involves delaying the execution of the action triggered by the input event, waiting for a brief period of time before allowing the action to be executed. If the input event occurs again during this period, the timer is reset and the delay is extended. When the delay expires without the occurrence of another input event, the action is finally executed.
 
 For example, when handling a form submit button, it is common to use the debouncing technique to prevent duplicate or unnecessary submissions. The same can be applied to input fields, such as search fields, where debouncing can be used to delay the execution of the search until the user has finished typing or to minimize the number of requests to the server.
+
+### What are the Web Vitals?
+
+Web Vitals refer to a set of metrics that Google has identified as key indicators of a website's user experience. These metrics are focused on three main areas: loading speed, interactivity, and visual stability. Specifically, the Web Vitals include metrics such as "Largest Contentful Paint" (LCP), which measures loading speed, "First Input Delay" (FID), which measures interactivity, and "Cumulative Layout Shift" (CLS), which measures visual stability.
+
+Google has identified these metrics as important because they directly impact a website's user experience. Websites that perform well on these metrics are more likely to provide a positive experience for users, while websites that perform poorly may lead to frustration and abandonment. In addition, Google has stated that these metrics are important for search engine optimization (SEO), and that websites that perform well on the Web Vitals may see improved search rankings.
+
+To help website owners and developers improve their performance on the Web Vitals, Google has provided tools and resources, such as the PageSpeed Insights tool, which analyzes a website's performance and provides recommendations for improvement. By focusing on the Web Vitals, website owners and developers can ensure that their websites are providing a positive user experience and are optimized for search engines.
