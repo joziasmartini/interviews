@@ -39,3 +39,12 @@ A version control system (VCS) is a software tool that helps developers manage c
 `frontend`
 
 To generate a PDF using JavaScript, you can use a library such as jsPDF or PDFKit. These libraries provide APIs to create PDF documents and add text, images, and other elements to them. You can use JavaScript to dynamically generate content and then use these libraries to create a PDF document from that content. Once the PDF is generated, you can choose to save it to the server or allow the user to download it directly.
+
+### What is debouncing in web development?
+`frontend`
+
+In web development, debouncing is a technique used to handle performance problems caused by input events, such as button clicks or typing in input fields. Without debouncing, these events can trigger excessive actions, such as network requests or UI updates, overloading the system and affecting the user experience.
+
+The debouncing technique involves delaying the execution of the action triggered by the input event, waiting for a brief period of time before allowing the action to be executed. If the input event occurs again during this period, the timer is reset and the delay is extended. When the delay expires without the occurrence of another input event, the action is finally executed.
+
+For example, when handling a form submit button, it is common to use the debouncing technique to prevent duplicate or unnecessary submissions. The same can be applied to input fields, such as search fields, where debouncing can be used to delay the execution of the search until the user has finished typing or to minimize the number of requests to the server.
